@@ -4,7 +4,9 @@
 
     <section class="hero">
       <h1>DISCOVER UNIQUE LAMPS EVERY DAY</h1>
-      <button class="btn-1">View all collections</button>
+<router-link to="/collections" class="nav-link" active-class="active-link">
+  <button class="btn-1">View all collections</button>
+</router-link>
     </section>
 
     <div class="images">
@@ -17,7 +19,9 @@
     <div class="fattk">
       <div class="vere">
         <h1 class="h1-1">FEATURING LAMP</h1>
-        <button class="btn-2">View all collections</button>
+       <router-link to="/collections" class="nav-link" active-class="active-link">
+  <button class="btn-2">View all collections</button>
+</router-link>
       </div>
       <h2 class="h2-2">fresh selection</h2>
     </div>
@@ -33,7 +37,12 @@
       <h3>Contemporary Living</h3>
       <h1>Decor for Homes</h1>
       <p>Transform your living space with our stylish furniture and decor.</p>
-      <button class="btn-2">Shop New Items</button>
+      <router-link to="/Shops" active-class="active-link">
+  <button class="btn-2">  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M0 1a1 1 0 0 1 1-1h1.27a1 1 0 0 1 .95.68L3.89 3H14a1 1 0 0 1 .96 1.27l-1.5 6A1 1 0 0 1 12.5 11H5a1 1 0 0 1-1-.76L2.31 2H1a1 1 0 0 1-1-1z"/>
+        <path d="M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 2a2 2 0 1 0-4 0 2 2 0 0 0 4 0z"/>
+      </svg> Shop New Items</button>
+</router-link>
     </div>
   </div>
 </template>
