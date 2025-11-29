@@ -1,12 +1,12 @@
 <script setup>
-import HomePage from "./components/HomePage.vue";
+import Home from "./components/Home.vue";
 
 
 </script>
 
 <template>
   <div>
-    <HomePage />
+    <Home />
   
 
 
