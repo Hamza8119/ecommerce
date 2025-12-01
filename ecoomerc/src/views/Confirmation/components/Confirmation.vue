@@ -8,7 +8,6 @@
     </div>
 
     <h1 class="title">Commande Confirmée !</h1>
-
     <div class="summary">
       <h2>Détails de la commande :</h2>
       <p><strong>Total payé:</strong> ${{ total.toFixed(2) }}</p>
