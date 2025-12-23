@@ -123,8 +123,8 @@ export default {
 
   /* صورتين في الخلفية */
   background: 
-    url('@/assets/image14.png') no-repeat left center,
-    url('@/assets/image15.png') no-repeat right center;
+  url('../../assets/image14.png') no-repeat left center,
+    url('../../assets/image14.png') no-repeat right center;
     
   background-size: 200% auto, 60% auto; /* حجم الصور */
 }
