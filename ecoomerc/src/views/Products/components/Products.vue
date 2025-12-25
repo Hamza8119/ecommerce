@@ -102,6 +102,7 @@ import image3 from "@/assets/pic2.jpeg";
 import image4 from "@/assets/pic3.jpeg";
 import image5 from "@/assets/pic4.jpeg";
 
+
 export default {
   name: "Home",
 
